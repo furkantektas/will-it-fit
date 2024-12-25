@@ -4,6 +4,7 @@
   "version": "0.0.1",
   "type": "module",
   "homepage": "https://furkantektas.github.io/will-it-fit",
+  "packageManager": "pnpm@9.14.2",
   "scripts": {
     "dev": "npx vite",
     "build": "rm -rf dist && mkdir -p dist && cp -r public/* dist/ && npx vite build",
